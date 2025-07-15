@@ -1,0 +1,17 @@
+.tablet__list {
+  list-style-type: none;
+}
+
+.tablet__box {
+  display: grid;
+  grid-template: "item-1 ." min-content "item-1 ." min-content ".      ." min-content "item-2 item-2" min-content "item-2 item-2" min-content "item-2 item-2" min-content / 70px 70px;
+}
+
+.tablet__text {
+  font-family: $primary-font;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin: 0;
+  grid-area: item-2;
+}

@@ -1,0 +1,23 @@
+.site-list {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.site-list__item {
+  font-family: $secondary-font;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  // text-decoration: none;
+  // text-transform: uppercase;
+  color: $basic-black;
+}
+
+.site-list__link {
+  display: inline-flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $basic-black;
+}

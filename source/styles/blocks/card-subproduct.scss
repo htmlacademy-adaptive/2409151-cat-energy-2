@@ -1,0 +1,95 @@
+.card-subproduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content min-content;
+  padding-bottom: 19px;
+
+  @media screen and (min-width: $tablet-width) {
+    grid-template-columns: 407px 132px 93px;
+    grid-template-rows: min-content;
+    border: 1px solid $special-grey;
+    padding: 25px 38px 27px;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    grid-template-columns: 325px 243px 82px 244px;
+    grid-template-rows: min-content;
+    border-left: none;
+    border-right: none;
+    // padding: 26px 0 28px;
+    padding: 0;
+  }
+}
+
+.card-subproduct__name {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $special-dark-grey;
+  margin: 0;
+  padding: 13px 0;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 0 25px;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    padding: 25px 0;
+  }
+}
+
+.card-subproduct__quantity {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: $special-dark-grey;
+  margin: 0;
+  padding-bottom: 15px;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding: 3px 0 0;
+    justify-self: end;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    padding: 25px 0;
+    justify-self: start;
+  }
+}
+
+.card-subproduct__price {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: $special-dark-grey;
+  margin: 0;
+  padding-bottom: 15px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  justify-self: end;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    padding: 3px 4px 0 0;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    padding: 25px 0;
+    justify-self: start;
+  }
+}

@@ -1,0 +1,138 @@
+.subscribe {
+  padding: 40px 20px;
+
+  @media screen and (min-width: $tablet-width) {
+    padding: 80px 68px;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    padding: 96px 110px 104px;
+  }
+}
+
+.subscribe__title {
+  font-family: $secondary-font;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $basic-black;
+  margin: 0;
+  position: relative;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+.subscribe__title::before {
+  @media screen and (min-width: $tablet-width) {
+    content: "";
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 15px;
+    left: -68px;
+    background-color: $basic-green;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    width: 70px;
+    top: 19px;
+    left: -110px;
+  }
+}
+
+.subscribe__title::after {
+  content: "";
+  width: 107px;
+  height: 2px;
+  position: absolute;
+  top: 11px;
+  right: -20px;
+  background-color: $basic-green;
+
+  @media screen and (min-width: $tablet-width) {
+    width: 455px;
+    top: 15px;
+    right: -68px;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    width: 1036px;
+    top: 19px;
+    right: -110px;
+  }
+}
+
+.subscribe__subtitle {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $basic-black;
+  margin: 32px 0 24px;
+  text-align: center;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 67px 0 24px;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 74px 0 24px;
+  }
+}
+
+.subscribe__form {
+  // height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media screen and (min-width: $tablet-width) {
+    flex-direction: row;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    justify-content: center;
+  }
+}
+
+.subscribe__label-email input {
+  width: 280px;
+  height: 56px;
+  font-family: $secondary-font;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $special-dark-grey;
+  text-transform: uppercase;
+  border-color: $special-grey;
+  border-width: 1px;
+  padding: 13px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: $tablet-width) {
+    width: 376px;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    width: 496px;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+  }
+}

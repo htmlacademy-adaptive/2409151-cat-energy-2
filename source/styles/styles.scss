@@ -1,7 +1,33 @@
 /* GLOBAL */
 @import "./common/variables.scss";
-@import "./common/global.scss";
+@import "./common/mixins.scss";
 @import "./common/fonts.scss";
+@import "./common/global.scss";
+//@import "../../build/icons/stack.svg";
+
 
 /* BLOCKS */
-@import "./blocks/header.scss";
+@import "./blocks/arrow-icon.scss";
+@import "./blocks/button.scss";
+@import "./blocks/card-subproduct.scss";
+@import "./blocks/cards.scss";
+@import "./blocks/cat-diet.scss";
+@import "./blocks/cat-slider.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/copyright.scss";
+@import "./blocks/description.scss";
+@import "./blocks/example.scss";
+@import "./blocks/gift.scss";
+@import "./blocks/location.scss";
+@import "./blocks/main-container.scss";
+@import "./blocks/main-footer.scss";
+@import "./blocks/main-header.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/page.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/site-list.scss";
+@import "./blocks/slider.scss";
+@import "./blocks/social.scss";
+@import "./blocks/subproducts.scss";
+@import "./blocks/subscribe.scss";
+@import "./blocks/tablet.scss";

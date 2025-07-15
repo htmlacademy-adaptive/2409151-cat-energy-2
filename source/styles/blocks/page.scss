@@ -1,0 +1,9 @@
+.page {
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+
+  @media screen and (min-width: $desktop-width) {
+    position: relative;
+  }
+}
